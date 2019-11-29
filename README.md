@@ -1,2 +1,2 @@
 # VotingSystem
-This is my repository for the decentralized voting system that I am building for my diploma
+This is the repository for the decentralized voting system that I am building for my diploma
