@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Decentralized voting</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Voting</h1>
+
+
+    <label for="receiver">address:</label>
+    <input
+      type="text"
+      id="receiver"
+      placeholder="0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <button onclick="App.addAddress()">Connect to metamask</button>
+
+    <p id="status"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
