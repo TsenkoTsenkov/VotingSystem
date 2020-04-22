@@ -3,26 +3,17 @@
   <head>
     <title>Decentralized voting</title>
   </head>
-  <style>
-    input {
-      display: block;
-      margin-bottom: 12px;
-    }
-  </style>
+ 
   <body>
     <h1>Voting</h1>
 
+    <button id="connectToMetamask">Connect to Metamask</button>
 
-    <label for="receiver">address:</label>
-    <input
-      type="text"
-      id="receiver"
-      placeholder="0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
-    />
+    <button id="checkAddressButton">Check Address</button>
 
-    <button onclick="App.addAddress()">Connect to metamask</button>
+    <h2>Account: <span id="showAccount"></span></h2>
+    <h2>Show current Account Address: <span id="showSelectedAddress"></span></h2>
 
-    <p id="status"></p>
-    <script src="index.js"></script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
